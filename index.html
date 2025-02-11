@@ -1,34 +1,181 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Jonathan T. Barron</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Jon Barron</title>
+
+    <meta name="author" content="Dohyun Kim">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
   </head>
+
   <body>
-    <table style="width:100%;max-width:900px;margin:0 auto;">
-      <tbody>
-        <!-- Header and Intro Section -->
-        <tr>
-          <td style="padding:20px;">
-            <h1 style="font-size:2.5em; margin: 0;">Jonathan T. Barron</h1>
-            <p style="font-size:1.2em;">
-              [Your original biography text about your research interests, affiliations, etc.]
-            </p>
-          </td>
-        </tr>
-        
-        <!-- Projects Section -->
-        <tr>
-          <td style="padding:20px;">
-            <h2 style="font-size:2em;">Projects</h2>
-            <!-- (Here, your original project listings would be inserted.) -->
-          </td>
-        </tr>
-        
-        <!-- ... other sections (research papers, miscellanea, etc.) ... -->
-      </tbody>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Dohyun Kim
+                </p>
+                <p> I am a research officer at the Defense AI Center of the <a href="https://www.add.re.kr/eps">Agency for Defense Development (ADD)</a>, where I researched (robot learning, tbc). My research focuses on (tbc).
+                </p>
+                <p> Before joining ADD, I was a research intern at 3D Vision Lab, SNU, advised by Prof. <a href="https://3d.snu.ac.kr/members/">Youngmin Kim</a>, where I researched humanoid and quadruped reinforcement learning utilizing motion priors. I completed my bachelor's degree (Summa Cum Laude) in <a href="https://ece.snu.ac.kr/en">Electrical and Computer Engineering</a> at the <a href="https://en.snu.ac.kr/index.html">Seoul National University (SNU)</a>.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:dohyunk10@snu.ac.kr">Email</a> &nbsp;/&nbsp;
+                  <a href="data/DohyunKim-CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/dohyun-kim-498925331/">Linkedin</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/dohyunk10/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/DohyunKim.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/DohyunKim.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  I'm interested in robotics, reinforcement learning, and generalized humanoid. Most of my research is about (tbc).
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+
+    <tr onmouseout="r2r_stop()" onmouseover="r2r_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='r2r_image'><video  width=100% muted autoplay loop>
+          <source src="images/r2r.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/r2r.jpg' width=100%>
+        </div>
+        <script type="text/javascript">
+          function r2r_start() {
+            document.getElementById('r2r_image').style.opacity = "1";
+          }
+
+          function r2r_stop() {
+            document.getElementById('r2r_image').style.opacity = "0";
+          }
+          r2r_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://relight-to-reconstruct.github.io/">
+          <span class="papertitle">Generative Multiview Relighting for
+3D Reconstruction under Extreme Illumination Variation</span>
+        </a>
+        <br>
+        <a href="https://hadizayer.github.io/">Hadi Alzayer</a>,
+        <a href="https://henzler.github.io/">Philipp Henzler</a>,
+				<strong>Jonathan T. Barron</strong>, 
+        <a href="https://jbhuang0604.github.io/">Jia-Bin Huang</a>,
+        <a href="https://pratulsrinivasan.github.io/">Pratul P. Srinivasan</a>, 
+        <a href="https://dorverbin.github.io/">Dor Verbin</a>
+        <br>
+        <em>arXiv</em>, 2024
+        <br>
+        <a href="https://relight-to-reconstruct.github.io/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2412.15211">arXiv</a>
+        <p></p>
+        <p>
+				Images taken under extreme illumination variation can be made consistent with diffusion, and this enables high-quality 3D reconstruction.
+        </p>
+      </td>
+    </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/clean_promo.jpg" alt="clean-usnob" width="160" height="160">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing">
+                  <span class="papertitle">Cleaning the USNO-B Catalog Through Automatic Detection of Optical Artifacts</span>
+                </a>
+                <br>
+                <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
+                <br>
+                <em>The Astronomical Journal</em>, 135, 2008
+                <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
+                <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
+              </td>
+            </tr>
+
+          </tbody></table>
+
+          
+					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+            <tr>
+              <td>
+                <h2>Projects</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+           
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/clean_promo.jpg" alt="clean-usnob" width="160" height="160">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing">
+                  <span class="papertitle">Cleaning the USNO-B Catalog Through Automatic Detection of Optical Artifacts</span>
+                </a>
+                <br>
+                <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
+                <br>
+                <em>The Astronomical Journal</em>, 135, 2008
+                <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
+                <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
+              </td>
+            </tr>
+            
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+						     <div class="colored-box" style="background-color: #fcb97d;">
+								 <h2>Micropapers</h2>
+								 </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
+                <br>
+                <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
+                <br>
+                <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
+                <br>
+                <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
+              </td>
+            </tr>
+            
+            
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  template adapted from <a href="https://github.com/jonbarron/jonbarron_website">JonBarron</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
     </table>
   </body>
 </html>
